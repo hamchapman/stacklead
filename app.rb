@@ -5,8 +5,6 @@ require 'bson'
 require 'json'
 
 class Stacklead < Sinatra::Base
-
-  helpers ApplicationHelper
   include Mongo
 
   if ENV['MONGOHQ_URL']
