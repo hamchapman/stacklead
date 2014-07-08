@@ -3,7 +3,6 @@ require 'mongo'
 require 'uri'
 require 'bson'
 require 'json'
-require 'helpers/helpers'
 
 class Stacklead < Sinatra::Base
 
